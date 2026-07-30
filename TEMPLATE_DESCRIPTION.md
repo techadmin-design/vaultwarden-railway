@@ -1,6 +1,6 @@
 ## Template Titles
 
-**Railway Title:** `Vaultwarden [Updated Jul '26]`
+**Railway Title:** `Vaultwarden` (plain name only, this field controls the URL slug)
 **Railway Description:** `Vaultwarden [Jul '26] (Self-Hosted Bitwarden-Compatible Vault) Self Host`
 **Spreadsheet Title:** `Vaultwarden (Open-Source Bitwarden-Compatible Password Manager)`
 **GitHub Description:** `Vaultwarden: lightweight, Bitwarden-compatible password manager server written in Rust. Deploy on Railway with one click.`
@@ -45,7 +45,7 @@ Vaultwarden needs PostgreSQL for its own application data, users, encrypted vaul
 
 ### Deployment Dependencies for Managed Vaultwarden Service (Password Management)
 
-This template provisions Railway-managed PostgreSQL and a persistent volume, wired to the container over Railway's private network. No Redis, no worker, Vaultwarden is a single Rust binary plus its database.
+This template provisions Railway-managed PostgreSQL and a persistent volume, wired to the container over Railway's private network. No Redis, no worker.
 
 ### Implementation Details for Vaultwarden (Using Vaultwarden Official Docker Image)
 
