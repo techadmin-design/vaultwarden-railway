@@ -1,4 +1,4 @@
-FROM vaultwarden/server:1.37.0
+FROM vaultwarden/server:1.37.2
 
 # Vaultwarden's web server (Rocket) doesn't read Railway's own PORT variable -
 # it needs ROCKET_PORT specifically. Setting both explicitly (this file's ENV
